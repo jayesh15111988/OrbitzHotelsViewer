@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383387C81A2728460011C36B /* OrbitzHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387C71A2728460011C36B /* OrbitzHotel.m */; };
+		383387CB1A272ACF0011C36B /* OrbitzHotelsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387CA1A272ACF0011C36B /* OrbitzHotelsListViewController.m */; };
+		383387CF1A273A470011C36B /* HotelsListCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387CE1A273A470011C36B /* HotelsListCustomCell.m */; };
 		38E51C961A27246A0090B49D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C951A27246A0090B49D /* main.m */; };
 		38E51C991A27246A0090B49D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C981A27246A0090B49D /* AppDelegate.m */; };
 		38E51C9C1A27246A0090B49D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C9B1A27246A0090B49D /* ViewController.m */; };
@@ -14,6 +17,8 @@
 		38E51CA11A27246A0090B49D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E51CA01A27246A0090B49D /* Images.xcassets */; };
 		38E51CA41A27246A0090B49D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E51CA21A27246A0090B49D /* LaunchScreen.xib */; };
 		38E51CB01A27246A0090B49D /* OrbitzHotelsViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51CAF1A27246A0090B49D /* OrbitzHotelsViewerTests.m */; };
+		38E51CBB1A2725D30090B49D /* hotels.json in Resources */ = {isa = PBXBuildFile; fileRef = 38E51CBA1A2725D30090B49D /* hotels.json */; };
+		7B97080DFEB207F21DE89229 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 706173FE9D99B02A4DBC52CD /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		383387C61A2728460011C36B /* OrbitzHotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitzHotel.h; sourceTree = "<group>"; };
+		383387C71A2728460011C36B /* OrbitzHotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitzHotel.m; sourceTree = "<group>"; };
+		383387C91A272ACF0011C36B /* OrbitzHotelsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitzHotelsListViewController.h; sourceTree = "<group>"; };
+		383387CA1A272ACF0011C36B /* OrbitzHotelsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitzHotelsListViewController.m; sourceTree = "<group>"; };
+		383387CD1A273A470011C36B /* HotelsListCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelsListCustomCell.h; sourceTree = "<group>"; };
+		383387CE1A273A470011C36B /* HotelsListCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelsListCustomCell.m; sourceTree = "<group>"; };
 		38E51C901A27246A0090B49D /* OrbitzHotelsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitzHotelsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E51C941A27246A0090B49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38E51C951A27246A0090B49D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +51,10 @@
 		38E51CA91A27246A0090B49D /* OrbitzHotelsViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitzHotelsViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E51CAE1A27246A0090B49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38E51CAF1A27246A0090B49D /* OrbitzHotelsViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitzHotelsViewerTests.m; sourceTree = "<group>"; };
+		38E51CBA1A2725D30090B49D /* hotels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotels.json; sourceTree = "<group>"; };
+		706173FE9D99B02A4DBC52CD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0D93108016FDCF42EA304F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C2FDCCCF03509E53EB6E825D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B97080DFEB207F21DE89229 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +76,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090AA978841FCCABC474E306 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				706173FE9D99B02A4DBC52CD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		383387C51A27271F0011C36B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				383387C61A2728460011C36B /* OrbitzHotel.h */,
+				383387C71A2728460011C36B /* OrbitzHotel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		383387CC1A272B3A0011C36B /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				383387CD1A273A470011C36B /* HotelsListCustomCell.h */,
+				383387CE1A273A470011C36B /* HotelsListCustomCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
 		38E51C871A27246A0090B49D = {
 			isa = PBXGroup;
 			children = (
 				38E51C921A27246A0090B49D /* OrbitzHotelsViewer */,
 				38E51CAC1A27246A0090B49D /* OrbitzHotelsViewerTests */,
 				38E51C911A27246A0090B49D /* Products */,
+				D7380B7F09B66E5CC427B869 /* Pods */,
+				090AA978841FCCABC474E306 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +125,11 @@
 		38E51C921A27246A0090B49D /* OrbitzHotelsViewer */ = {
 			isa = PBXGroup;
 			children = (
+				383387CC1A272B3A0011C36B /* Custom Cells */,
+				383387C51A27271F0011C36B /* Model */,
+				38E51CBD1A2726860090B49D /* Hotels Map Controller */,
+				38E51CBC1A27266C0090B49D /* Hotels List Controller */,
+				38E51CB91A2725B80090B49D /* Hotels Metadata  */,
 				38E51C971A27246A0090B49D /* AppDelegate.h */,
 				38E51C981A27246A0090B49D /* AppDelegate.m */,
 				38E51C9A1A27246A0090B49D /* ViewController.h */,
@@ -119,6 +168,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		38E51CB91A2725B80090B49D /* Hotels Metadata  */ = {
+			isa = PBXGroup;
+			children = (
+				38E51CBA1A2725D30090B49D /* hotels.json */,
+			);
+			name = "Hotels Metadata ";
+			sourceTree = "<group>";
+		};
+		38E51CBC1A27266C0090B49D /* Hotels List Controller */ = {
+			isa = PBXGroup;
+			children = (
+				383387C91A272ACF0011C36B /* OrbitzHotelsListViewController.h */,
+				383387CA1A272ACF0011C36B /* OrbitzHotelsListViewController.m */,
+			);
+			name = "Hotels List Controller";
+			sourceTree = "<group>";
+		};
+		38E51CBD1A2726860090B49D /* Hotels Map Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Hotels Map Controller";
+			sourceTree = "<group>";
+		};
+		D7380B7F09B66E5CC427B869 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2FDCCCF03509E53EB6E825D /* Pods.debug.xcconfig */,
+				BD0D93108016FDCF42EA304F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38E51CB31A27246A0090B49D /* Build configuration list for PBXNativeTarget "OrbitzHotelsViewer" */;
 			buildPhases = (
+				D60432F699095516232BFC55 /* Check Pods Manifest.lock */,
 				38E51C8C1A27246A0090B49D /* Sources */,
 				38E51C8D1A27246A0090B49D /* Frameworks */,
 				38E51C8E1A27246A0090B49D /* Resources */,
+				90EA3BF853F159209F2C19AD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +285,7 @@
 			files = (
 				38E51C9F1A27246A0090B49D /* Main.storyboard in Resources */,
 				38E51CA41A27246A0090B49D /* LaunchScreen.xib in Resources */,
+				38E51CBB1A2725D30090B49D /* hotels.json in Resources */,
 				38E51CA11A27246A0090B49D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +299,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90EA3BF853F159209F2C19AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60432F699095516232BFC55 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38E51C8C1A27246A0090B49D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,7 +339,10 @@
 			files = (
 				38E51C9C1A27246A0090B49D /* ViewController.m in Sources */,
 				38E51C991A27246A0090B49D /* AppDelegate.m in Sources */,
+				383387C81A2728460011C36B /* OrbitzHotel.m in Sources */,
+				383387CB1A272ACF0011C36B /* OrbitzHotelsListViewController.m in Sources */,
 				38E51C961A27246A0090B49D /* main.m in Sources */,
+				383387CF1A273A470011C36B /* HotelsListCustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +464,7 @@
 		};
 		38E51CB41A27246A0090B49D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FDCCCF03509E53EB6E825D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OrbitzHotelsViewer/Info.plist;
@@ -353,6 +475,7 @@
 		};
 		38E51CB51A27246A0090B49D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0D93108016FDCF42EA304F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OrbitzHotelsViewer/Info.plist;
@@ -414,6 +537,7 @@
 				38E51CB51A27246A0090B49D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38E51CB61A27246A0090B49D /* Build configuration list for PBXNativeTarget "OrbitzHotelsViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +546,7 @@
 				38E51CB81A27246A0090B49D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
