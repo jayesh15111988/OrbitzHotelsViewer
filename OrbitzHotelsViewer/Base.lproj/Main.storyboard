@@ -20,8 +20,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78F-g7-Y9i">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="430"/>
                                 <subviews>
-                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9BZ-Kg-5nH">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="430"/>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9BZ-Kg-5nH">
+                                        <rect key="frame" x="0.0" y="20" width="320" height="410"/>
                                         <connections>
                                             <outlet property="delegate" destination="MKw-Zx-Tb6" id="GXY-WM-tsT"/>
                                         </connections>
@@ -30,7 +30,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="9BZ-Kg-5nH" firstAttribute="leading" secondItem="78F-g7-Y9i" secondAttribute="leading" id="5u4-Vu-b4y"/>
-                                    <constraint firstItem="9BZ-Kg-5nH" firstAttribute="top" secondItem="78F-g7-Y9i" secondAttribute="top" id="RgS-3d-2P5"/>
+                                    <constraint firstItem="9BZ-Kg-5nH" firstAttribute="top" secondItem="78F-g7-Y9i" secondAttribute="top" constant="20" id="RgS-3d-2P5"/>
                                     <constraint firstAttribute="bottom" secondItem="9BZ-Kg-5nH" secondAttribute="bottom" id="UAS-oL-FRk"/>
                                     <constraint firstAttribute="trailing" secondItem="9BZ-Kg-5nH" secondAttribute="trailing" id="tNL-ed-Gug"/>
                                 </constraints>
@@ -64,9 +64,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="9oO-YY-U5R">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="430"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="9oO-YY-U5R">
+                                <rect key="frame" x="0.0" y="20" width="320" height="410"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="hotelscell" rowHeight="80" id="Xjy-Jc-IQ0" customClass="HotelsListCustomCell">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -74,16 +73,28 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xjy-Jc-IQ0" id="rvb-Jn-Ih2">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="veh-Mm-Rue">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="veh-Mm-Rue">
                                                     <rect key="frame" x="5" y="5" width="70" height="70"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="70" id="X7M-jz-yoT"/>
+                                                        <constraint firstAttribute="width" constant="70" id="w0k-mO-egO"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="QPe-hH-BKB">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="QPe-hH-BKB">
                                                     <rect key="frame" x="95" y="15" width="210" height="50"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="QPe-hH-BKB" secondAttribute="bottom" constant="6.5" id="Eea-Cq-oai"/>
+                                                <constraint firstItem="veh-Mm-Rue" firstAttribute="top" secondItem="rvb-Jn-Ih2" secondAttribute="topMargin" constant="-3" id="HHJ-dg-8ZK"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="QPe-hH-BKB" secondAttribute="trailing" constant="7" id="Xi8-ZW-qdd"/>
+                                                <constraint firstItem="QPe-hH-BKB" firstAttribute="leading" secondItem="veh-Mm-Rue" secondAttribute="trailing" constant="20" id="cCB-23-m5W"/>
+                                                <constraint firstItem="QPe-hH-BKB" firstAttribute="top" secondItem="rvb-Jn-Ih2" secondAttribute="topMargin" constant="7" id="geQ-s3-S6Y"/>
+                                                <constraint firstItem="veh-Mm-Rue" firstAttribute="leading" secondItem="rvb-Jn-Ih2" secondAttribute="leadingMargin" constant="-3" id="tda-ld-iAv"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="hotelImage" destination="veh-Mm-Rue" id="eHj-TY-HZZ"/>
@@ -97,10 +108,11 @@
                                 </connections>
                             </tableView>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="9oO-YY-U5R" secondAttribute="trailing" constant="-16" id="6cp-Rg-s19"/>
                             <constraint firstItem="9oO-YY-U5R" firstAttribute="leading" secondItem="ZId-nV-IVU" secondAttribute="leadingMargin" constant="-16" id="A2m-3y-SVu"/>
-                            <constraint firstItem="9oO-YY-U5R" firstAttribute="top" secondItem="ZId-nV-IVU" secondAttribute="topMargin" id="Gxh-c4-Yq8"/>
+                            <constraint firstItem="9oO-YY-U5R" firstAttribute="top" secondItem="ZId-nV-IVU" secondAttribute="topMargin" constant="20" id="Gxh-c4-Yq8"/>
                             <constraint firstItem="SvX-oe-QDh" firstAttribute="top" secondItem="9oO-YY-U5R" secondAttribute="bottom" constant="1" id="aTu-uP-JHI"/>
                         </constraints>
                     </view>

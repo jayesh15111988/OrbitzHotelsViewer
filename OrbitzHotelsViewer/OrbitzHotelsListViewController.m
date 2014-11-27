@@ -20,6 +20,9 @@
 
 -(void)viewDidLoad {
     [super viewDidLoad];
+    //Add border to hotel
+    self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    self.tableView.layer.borderWidth = 1.0f;
     [self.tableView reloadData];
 }
 
@@ -47,7 +50,8 @@
         [cell.hotelImage sd_setImageWithURL:currentHotel.hotelImageURL placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]];
     }
     else {
-        [cell.hotelImage setImage:nil];
+        //No image was listed for given hotel
+        [cell.hotelImage setImage:[UIImage imageNamed:@"placeholder_image.png"]];
     }
     return cell;
 }

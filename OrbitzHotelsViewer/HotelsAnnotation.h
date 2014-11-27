@@ -13,7 +13,7 @@
 @interface HotelsAnnotation : NSObject<MKAnnotation>
 @property (nonatomic, strong) NSString *hotelName;
 @property (nonatomic, strong) NSString* hotelStreetAddress;
-@property (nonatomic, strong) NSURL* remoteImageURL;
+@property (nonatomic, strong) NSURL* hotelImageURL;
 @property (nonatomic, assign) CLLocationCoordinate2D theCoordinate;
 - (id)initWithHotelName:(NSString*)name andStreetAddress:(NSString*)streetAddress coordinate:(CLLocationCoordinate2D)coordinate;
 @end

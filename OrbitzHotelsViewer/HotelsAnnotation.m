@@ -28,7 +28,7 @@
 }
 
 - (CLLocationCoordinate2D)coordinate {
-    return _theCoordinate;
+    return self.theCoordinate;
 }
 
 - (MKMapItem*)mapItem {
@@ -36,7 +36,7 @@
     
     MKPlacemark *placemark = [[MKPlacemark alloc]
                               initWithCoordinate:self.coordinate
-                              addressDictionary:@{@"name":@"temp"}];
+                              addressDictionary:@{@"address":self.hotelStreetAddress}];
     
     MKMapItem *mapItem = [[MKMapItem alloc] initWithPlacemark:placemark];
     mapItem.name = self.hotelName;

@@ -23,6 +23,8 @@
 @implementation OrbitzHotelsMapViewController
 -(void)viewDidLoad {
     [super viewDidLoad];
+    self.hotelsMap.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    self.hotelsMap.layer.borderWidth = 1.0f;
     [self plotHotelsOnMap:self.hotelsObjectsList];
 }
 
@@ -60,7 +62,7 @@
         coordinate.latitude = individualHotel.hotelLatitude;
         coordinate.longitude = individualHotel.hotelLongitude;
         HotelsAnnotation *annotation = [[HotelsAnnotation alloc] initWithHotelName:hotelName andStreetAddress:individualHotel.streetAddress coordinate:coordinate] ;
-        annotation.remoteImageURL = individualHotel.hotelImageURL;
+        annotation.hotelImageURL = individualHotel.hotelImageURL;
         [self.hotelsMap addAnnotation:annotation];
     }
 }
@@ -76,20 +78,24 @@
             annotationView.canShowCallout = YES;
             annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
             annotationView.enabled = YES;
-            annotationView.canShowCallout = YES;
             annotationView.image = [UIImage imageNamed:@"pin.png"];
         } else {
             annotationView.annotation = annotation;
         }
         
-        HotelsAnnotation* anno = (HotelsAnnotation*)annotation;
-        NSLog(@"URL is %@",anno.remoteImageURL);
+        HotelsAnnotation* currentHotelAnnotation = (HotelsAnnotation*)annotation;
+
         
         UIImageView* hotelImageView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 5, 50, 50)];
-        [hotelImageView sd_setImageWithURL:anno.remoteImageURL];
+        
+        if(currentHotelAnnotation.hotelImageURL) {
+            [hotelImageView sd_setImageWithURL:currentHotelAnnotation.hotelImageURL];
+        }
+        else {
+            [hotelImageView setImage:[UIImage imageNamed:@"placeholder_image.png"]];
+        }
         
         annotationView.leftCalloutAccessoryView = hotelImageView;
-        
         return annotationView;
     }
     
