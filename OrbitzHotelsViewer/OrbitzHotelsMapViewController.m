@@ -30,6 +30,7 @@
 
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    self.title = @"Hotels Map";
 }
 
 - (void)plotHotelsOnMap:(NSArray *)hotelsList {
@@ -49,10 +50,8 @@
             zoomLocation.latitude = individualHotel.hotelLatitude;
             zoomLocation.longitude= individualHotel.hotelLongitude;
             
-            // 2
             MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 0.5*METERS_PER_MILE, 0.5*METERS_PER_MILE);
             
-            // 3
             [self.hotelsMap setRegion:viewRegion animated:YES];
         }
         
