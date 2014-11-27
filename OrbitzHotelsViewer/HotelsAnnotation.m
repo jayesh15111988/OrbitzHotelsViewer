@@ -32,8 +32,6 @@
 }
 
 - (MKMapItem*)mapItem {
-    
-    
     MKPlacemark *placemark = [[MKPlacemark alloc]
                               initWithCoordinate:self.coordinate
                               addressDictionary:@{@"address":self.hotelStreetAddress}];

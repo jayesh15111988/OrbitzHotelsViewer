@@ -18,9 +18,9 @@
 		383387E01A279B210011C36B /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387DF1A279B210011C36B /* pin.png */; };
 		383387EE1A27A83D0011C36B /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387EC1A27A83D0011C36B /* maps.png */; };
 		383387F01A27A8D00011C36B /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387EF1A27A8D00011C36B /* list.png */; };
+		38C4D6B01A27BD2900091EFF /* beautifulHotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38C4D6AF1A27BD2900091EFF /* beautifulHotel.jpg */; };
 		38E51C961A27246A0090B49D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C951A27246A0090B49D /* main.m */; };
 		38E51C991A27246A0090B49D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C981A27246A0090B49D /* AppDelegate.m */; };
-		38E51C9C1A27246A0090B49D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C9B1A27246A0090B49D /* ViewController.m */; };
 		38E51C9F1A27246A0090B49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E51C9D1A27246A0090B49D /* Main.storyboard */; };
 		38E51CA11A27246A0090B49D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E51CA01A27246A0090B49D /* Images.xcassets */; };
 		38E51CA41A27246A0090B49D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E51CA21A27246A0090B49D /* LaunchScreen.xib */; };
@@ -57,13 +57,12 @@
 		383387DF1A279B210011C36B /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
 		383387EC1A27A83D0011C36B /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
 		383387EF1A27A8D00011C36B /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		38C4D6AF1A27BD2900091EFF /* beautifulHotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beautifulHotel.jpg; sourceTree = "<group>"; };
 		38E51C901A27246A0090B49D /* OrbitzHotelsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitzHotelsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E51C941A27246A0090B49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38E51C951A27246A0090B49D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38E51C971A27246A0090B49D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		38E51C981A27246A0090B49D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		38E51C9A1A27246A0090B49D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38E51C9B1A27246A0090B49D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		38E51C9E1A27246A0090B49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38E51CA01A27246A0090B49D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		38E51CA31A27246A0090B49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -130,6 +129,7 @@
 			children = (
 				383387D11A278B9D0011C36B /* placeholder_image.png */,
 				383387EC1A27A83D0011C36B /* maps.png */,
+				38C4D6AF1A27BD2900091EFF /* beautifulHotel.jpg */,
 				383387EF1A27A8D00011C36B /* list.png */,
 				383387DF1A279B210011C36B /* pin.png */,
 			);
@@ -177,8 +177,6 @@
 				38E51CB91A2725B80090B49D /* Hotels Metadata  */,
 				38E51C971A27246A0090B49D /* AppDelegate.h */,
 				38E51C981A27246A0090B49D /* AppDelegate.m */,
-				38E51C9A1A27246A0090B49D /* ViewController.h */,
-				38E51C9B1A27246A0090B49D /* ViewController.m */,
 				38E51C9D1A27246A0090B49D /* Main.storyboard */,
 				38E51CA01A27246A0090B49D /* Images.xcassets */,
 				38E51CA21A27246A0090B49D /* LaunchScreen.xib */,
@@ -337,6 +335,7 @@
 				383387E01A279B210011C36B /* pin.png in Resources */,
 				38E51CBB1A2725D30090B49D /* hotels.json in Resources */,
 				38E51CA11A27246A0090B49D /* Images.xcassets in Resources */,
+				38C4D6B01A27BD2900091EFF /* beautifulHotel.jpg in Resources */,
 				383387F01A27A8D00011C36B /* list.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,7 +388,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				383387DB1A2792820011C36B /* OrbitzHotelsMapViewController.m in Sources */,
-				38E51C9C1A27246A0090B49D /* ViewController.m in Sources */,
 				383387D61A278C590011C36B /* MainTabBarController.m in Sources */,
 				38E51C991A27246A0090B49D /* AppDelegate.m in Sources */,
 				383387DE1A2796050011C36B /* HotelsAnnotation.m in Sources */,

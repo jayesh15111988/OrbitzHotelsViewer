@@ -12,12 +12,11 @@
 #import <UIImageView+WebCache.h>
 #import <MapKit/MapKit.h>
 
-#define METERS_PER_MILE 1609.344
+//Decides the range of surrounding area which is visible at this moment
+#define METERS_PER_MILE 1610
 
 @interface OrbitzHotelsMapViewController ()<MKMapViewDelegate>
 @property (weak, nonatomic) IBOutlet MKMapView *hotelsMap;
-
-
 @end
 
 @implementation OrbitzHotelsMapViewController
@@ -30,7 +29,7 @@
 
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.title = @"Hotels Map";
+    self.navigationController.navigationBar.topItem.title = @"Hotels On Map";
 }
 
 - (void)plotHotelsOnMap:(NSArray *)hotelsList {
@@ -38,9 +37,7 @@
         [self.hotelsMap removeAnnotation:annotation];
     }
     
-    
     NSInteger hotelsObjectCount = 0;
-    
     
     for (OrbitzHotel *individualHotel in hotelsList) {
 
@@ -56,7 +53,6 @@
         }
         
         NSString* hotelName = individualHotel.hotelName;
-        
         CLLocationCoordinate2D coordinate;
         coordinate.latitude = individualHotel.hotelLatitude;
         coordinate.longitude = individualHotel.hotelLongitude;
@@ -74,9 +70,10 @@
     if ([annotation isKindOfClass:[HotelsAnnotation class]]) {
         MKAnnotationView *annotationView = (MKAnnotationView *) [self.hotelsMap dequeueReusableAnnotationViewWithIdentifier:identifier];
         if (annotationView == nil) {
-            annotationView.canShowCallout = YES;
+
             annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
             annotationView.enabled = YES;
+            annotationView.canShowCallout = YES;
             annotationView.image = [UIImage imageNamed:@"pin.png"];
         } else {
             annotationView.annotation = annotation;
@@ -93,11 +90,9 @@
         else {
             [hotelImageView setImage:[UIImage imageNamed:@"placeholder_image.png"]];
         }
-        
         annotationView.leftCalloutAccessoryView = hotelImageView;
         return annotationView;
     }
-    
     return nil;
 }
 

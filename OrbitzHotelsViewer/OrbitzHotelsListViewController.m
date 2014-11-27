@@ -20,10 +20,15 @@
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-    //Add border to hotel
+    //Add border to tableview assigned to hotels list
     self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
     self.tableView.layer.borderWidth = 1.0f;
     [self.tableView reloadData];
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBar.topItem.title = @"Hotels List";
 }
 
 #pragma tableView datasource and delegate methods
@@ -50,7 +55,7 @@
         [cell.hotelImage sd_setImageWithURL:currentHotel.hotelImageURL placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]];
     }
     else {
-        //No image was listed for given hotel
+        //No image URL was found for the given hotel
         [cell.hotelImage setImage:[UIImage imageNamed:@"placeholder_image.png"]];
     }
     return cell;
