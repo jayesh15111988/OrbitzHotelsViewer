@@ -27,6 +27,17 @@
                                                             error:&deserializingError][@"hotels"];
      hotelsListViewController.hotelsObjectsList = [self getArrayObjectsWithJSONarray:hotelsList];
      hotelsMapViewController.hotelsObjectsList = hotelsListViewController.hotelsObjectsList;
+    
+    
+
+    NSDictionary *titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                         [UIFont systemFontOfSize:14], NSFontAttributeName, nil];
+
+
+    for(UIViewController *tab in  self.viewControllers) {
+        [tab.tabBarItem setTitleTextAttributes:titleTextAttributes forState:UIControlStateNormal];
+    }
+    
 }
 
 

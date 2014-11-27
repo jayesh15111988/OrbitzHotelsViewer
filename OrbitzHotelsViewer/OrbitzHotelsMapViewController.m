@@ -16,6 +16,8 @@
 
 @interface OrbitzHotelsMapViewController ()<MKMapViewDelegate>
 @property (weak, nonatomic) IBOutlet MKMapView *hotelsMap;
+
+
 @end
 
 @implementation OrbitzHotelsMapViewController

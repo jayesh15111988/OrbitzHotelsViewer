@@ -43,7 +43,7 @@
                             <constraint firstItem="78F-g7-Y9i" firstAttribute="top" secondItem="SS4-Wk-xdQ" secondAttribute="topMargin" id="uZf-gz-vqZ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="QeL-pC-Bao"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="maps.png" id="QeL-pC-Bao"/>
                     <connections>
                         <outlet property="hotelsMap" destination="9BZ-Kg-5nH" id="kWo-Tc-JOD"/>
                     </connections>
@@ -104,7 +104,7 @@
                             <constraint firstItem="SvX-oe-QDh" firstAttribute="top" secondItem="9oO-YY-U5R" secondAttribute="bottom" constant="1" id="aTu-uP-JHI"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="List" id="ENI-W6-yCt"/>
+                    <tabBarItem key="tabBarItem" title="List" image="list.png" id="ENI-W6-yCt"/>
                     <connections>
                         <outlet property="tableView" destination="9oO-YY-U5R" id="K4v-Uy-X34"/>
                     </connections>
@@ -135,6 +135,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="list.png" width="24" height="24"/>
+        <image name="maps.png" width="32" height="32"/>
         <image name="placeholder_image.png" width="128" height="128"/>
     </resources>
 </document>

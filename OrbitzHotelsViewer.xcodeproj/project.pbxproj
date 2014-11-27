@@ -16,6 +16,8 @@
 		383387DB1A2792820011C36B /* OrbitzHotelsMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387DA1A2792820011C36B /* OrbitzHotelsMapViewController.m */; };
 		383387DE1A2796050011C36B /* HotelsAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387DD1A2796050011C36B /* HotelsAnnotation.m */; };
 		383387E01A279B210011C36B /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387DF1A279B210011C36B /* pin.png */; };
+		383387EE1A27A83D0011C36B /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387EC1A27A83D0011C36B /* maps.png */; };
+		383387F01A27A8D00011C36B /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387EF1A27A8D00011C36B /* list.png */; };
 		38E51C961A27246A0090B49D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C951A27246A0090B49D /* main.m */; };
 		38E51C991A27246A0090B49D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C981A27246A0090B49D /* AppDelegate.m */; };
 		38E51C9C1A27246A0090B49D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C9B1A27246A0090B49D /* ViewController.m */; };
@@ -53,6 +55,8 @@
 		383387DC1A2796050011C36B /* HotelsAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelsAnnotation.h; sourceTree = "<group>"; };
 		383387DD1A2796050011C36B /* HotelsAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelsAnnotation.m; sourceTree = "<group>"; };
 		383387DF1A279B210011C36B /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		383387EC1A27A83D0011C36B /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		383387EF1A27A8D00011C36B /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		38E51C901A27246A0090B49D /* OrbitzHotelsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitzHotelsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E51C941A27246A0090B49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38E51C951A27246A0090B49D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				383387D11A278B9D0011C36B /* placeholder_image.png */,
+				383387EC1A27A83D0011C36B /* maps.png */,
+				383387EF1A27A8D00011C36B /* list.png */,
 				383387DF1A279B210011C36B /* pin.png */,
 			);
 			name = Images;
@@ -327,9 +333,11 @@
 				38E51C9F1A27246A0090B49D /* Main.storyboard in Resources */,
 				38E51CA41A27246A0090B49D /* LaunchScreen.xib in Resources */,
 				383387D21A278B9D0011C36B /* placeholder_image.png in Resources */,
+				383387EE1A27A83D0011C36B /* maps.png in Resources */,
 				383387E01A279B210011C36B /* pin.png in Resources */,
 				38E51CBB1A2725D30090B49D /* hotels.json in Resources */,
 				38E51CA11A27246A0090B49D /* Images.xcassets in Resources */,
+				383387F01A27A8D00011C36B /* list.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
