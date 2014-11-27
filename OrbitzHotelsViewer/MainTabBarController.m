@@ -9,12 +9,16 @@
 #import "MainTabBarController.h"
 #import "OrbitzHotel.h"
 #import "OrbitzHotelsListViewController.h"
+#import "OrbitzHotelsMapViewController.h"
 
 @implementation MainTabBarController
 
 -(void)viewDidLoad {
     [super viewDidLoad];
+    
     OrbitzHotelsListViewController* hotelsListViewController = (OrbitzHotelsListViewController*) self.viewControllers[0];
+    OrbitzHotelsMapViewController* hotelsMapViewController = (OrbitzHotelsMapViewController*) self.viewControllers[1];
+    
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"hotels" ofType:@"json"];
     NSError *deserializingError;
     NSData *content = [[NSData alloc] initWithContentsOfFile:filePath];
@@ -22,6 +26,7 @@
                                                           options:NSJSONReadingAllowFragments
                                                             error:&deserializingError][@"hotels"];
      hotelsListViewController.hotelsObjectsList = [self getArrayObjectsWithJSONarray:hotelsList];
+     hotelsMapViewController.hotelsObjectsList = hotelsListViewController.hotelsObjectsList;
 }
 
 

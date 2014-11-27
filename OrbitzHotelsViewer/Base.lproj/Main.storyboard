@@ -8,7 +8,7 @@
         <!--Map-->
         <scene sceneID="Vfj-Vx-Bwn">
             <objects>
-                <viewController id="MKw-Zx-Tb6" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mapview" id="MKw-Zx-Tb6" customClass="OrbitzHotelsMapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JbG-Iw-CiT"/>
                         <viewControllerLayoutGuide type="bottom" id="fYM-al-zFA"/>
@@ -19,7 +19,21 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78F-g7-Y9i">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="430"/>
+                                <subviews>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9BZ-Kg-5nH">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="430"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="MKw-Zx-Tb6" id="GXY-WM-tsT"/>
+                                        </connections>
+                                    </mapView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="9BZ-Kg-5nH" firstAttribute="leading" secondItem="78F-g7-Y9i" secondAttribute="leading" id="5u4-Vu-b4y"/>
+                                    <constraint firstItem="9BZ-Kg-5nH" firstAttribute="top" secondItem="78F-g7-Y9i" secondAttribute="top" id="RgS-3d-2P5"/>
+                                    <constraint firstAttribute="bottom" secondItem="9BZ-Kg-5nH" secondAttribute="bottom" id="UAS-oL-FRk"/>
+                                    <constraint firstAttribute="trailing" secondItem="9BZ-Kg-5nH" secondAttribute="trailing" id="tNL-ed-Gug"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <constraints>
@@ -30,6 +44,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" id="QeL-pC-Bao"/>
+                    <connections>
+                        <outlet property="hotelsMap" destination="9BZ-Kg-5nH" id="kWo-Tc-JOD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LqZ-vb-nLr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

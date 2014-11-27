@@ -12,6 +12,10 @@
 		383387CF1A273A470011C36B /* HotelsListCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387CE1A273A470011C36B /* HotelsListCustomCell.m */; };
 		383387D21A278B9D0011C36B /* placeholder_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387D11A278B9D0011C36B /* placeholder_image.png */; };
 		383387D61A278C590011C36B /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387D51A278C590011C36B /* MainTabBarController.m */; };
+		383387D81A27922F0011C36B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383387D71A27922F0011C36B /* MapKit.framework */; };
+		383387DB1A2792820011C36B /* OrbitzHotelsMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387DA1A2792820011C36B /* OrbitzHotelsMapViewController.m */; };
+		383387DE1A2796050011C36B /* HotelsAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387DD1A2796050011C36B /* HotelsAnnotation.m */; };
+		383387E01A279B210011C36B /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387DF1A279B210011C36B /* pin.png */; };
 		38E51C961A27246A0090B49D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C951A27246A0090B49D /* main.m */; };
 		38E51C991A27246A0090B49D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C981A27246A0090B49D /* AppDelegate.m */; };
 		38E51C9C1A27246A0090B49D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C9B1A27246A0090B49D /* ViewController.m */; };
@@ -43,6 +47,12 @@
 		383387D11A278B9D0011C36B /* placeholder_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder_image.png; sourceTree = "<group>"; };
 		383387D41A278C590011C36B /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
 		383387D51A278C590011C36B /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		383387D71A27922F0011C36B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		383387D91A2792820011C36B /* OrbitzHotelsMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitzHotelsMapViewController.h; sourceTree = "<group>"; };
+		383387DA1A2792820011C36B /* OrbitzHotelsMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitzHotelsMapViewController.m; sourceTree = "<group>"; };
+		383387DC1A2796050011C36B /* HotelsAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelsAnnotation.h; sourceTree = "<group>"; };
+		383387DD1A2796050011C36B /* HotelsAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelsAnnotation.m; sourceTree = "<group>"; };
+		383387DF1A279B210011C36B /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
 		38E51C901A27246A0090B49D /* OrbitzHotelsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitzHotelsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E51C941A27246A0090B49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38E51C951A27246A0090B49D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383387D81A27922F0011C36B /* MapKit.framework in Frameworks */,
 				7B97080DFEB207F21DE89229 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +95,7 @@
 		090AA978841FCCABC474E306 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				383387D71A27922F0011C36B /* MapKit.framework */,
 				706173FE9D99B02A4DBC52CD /* libPods.a */,
 			);
 			name = Frameworks;
@@ -94,6 +106,8 @@
 			children = (
 				383387C61A2728460011C36B /* OrbitzHotel.h */,
 				383387C71A2728460011C36B /* OrbitzHotel.m */,
+				383387DC1A2796050011C36B /* HotelsAnnotation.h */,
+				383387DD1A2796050011C36B /* HotelsAnnotation.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -111,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				383387D11A278B9D0011C36B /* placeholder_image.png */,
+				383387DF1A279B210011C36B /* pin.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -212,6 +227,8 @@
 		38E51CBD1A2726860090B49D /* Hotels Map Controller */ = {
 			isa = PBXGroup;
 			children = (
+				383387D91A2792820011C36B /* OrbitzHotelsMapViewController.h */,
+				383387DA1A2792820011C36B /* OrbitzHotelsMapViewController.m */,
 			);
 			name = "Hotels Map Controller";
 			sourceTree = "<group>";
@@ -310,6 +327,7 @@
 				38E51C9F1A27246A0090B49D /* Main.storyboard in Resources */,
 				38E51CA41A27246A0090B49D /* LaunchScreen.xib in Resources */,
 				383387D21A278B9D0011C36B /* placeholder_image.png in Resources */,
+				383387E01A279B210011C36B /* pin.png in Resources */,
 				38E51CBB1A2725D30090B49D /* hotels.json in Resources */,
 				38E51CA11A27246A0090B49D /* Images.xcassets in Resources */,
 			);
@@ -362,9 +380,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383387DB1A2792820011C36B /* OrbitzHotelsMapViewController.m in Sources */,
 				38E51C9C1A27246A0090B49D /* ViewController.m in Sources */,
 				383387D61A278C590011C36B /* MainTabBarController.m in Sources */,
 				38E51C991A27246A0090B49D /* AppDelegate.m in Sources */,
+				383387DE1A2796050011C36B /* HotelsAnnotation.m in Sources */,
 				383387C81A2728460011C36B /* OrbitzHotel.m in Sources */,
 				383387CB1A272ACF0011C36B /* OrbitzHotelsListViewController.m in Sources */,
 				38E51C961A27246A0090B49D /* main.m in Sources */,
