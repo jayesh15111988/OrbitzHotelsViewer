@@ -80,7 +80,7 @@
     cell.hotelName.text = currentHotel.hotelName;
     
     if(currentHotel.hotelImageURL) {
-        [cell.hotelImage sd_setImageWithURL:currentHotel.hotelImageURL placeholderImage:nil];
+        [cell.hotelImage sd_setImageWithURL:currentHotel.hotelImageURL placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]];
     }
     else {
         [cell.hotelImage setImage:nil];
