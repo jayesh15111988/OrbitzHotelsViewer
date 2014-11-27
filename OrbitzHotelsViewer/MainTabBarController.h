@@ -1,5 +1,5 @@
 //
-//  OrbitzHotelsListViewController.h
+//  MainTabBarController.h
 //  OrbitzHotelsViewer
 //
 //  Created by Jayesh Kawli Backup on 11/27/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OrbitzHotelsListViewController : UIViewController
-@property (strong, nonatomic) NSArray* hotelsObjectsList;
+@interface MainTabBarController : UITabBarController
+
 @end

@@ -57,11 +57,11 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xjy-Jc-IQ0" id="rvb-Jn-Ih2">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app.png" translatesAutoresizingMaskIntoConstraints="NO" id="veh-Mm-Rue">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="veh-Mm-Rue">
                                                     <rect key="frame" x="5" y="5" width="70" height="70"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="QPe-hH-BKB">
-                                                    <rect key="frame" x="83" y="15" width="230" height="50"/>
+                                                    <rect key="frame" x="95" y="15" width="210" height="50"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -96,10 +96,10 @@
             </objects>
             <point key="canvasLocation" x="780" y="14"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="YqI-6X-pek">
             <objects>
-                <tabBarController id="GhG-qy-QZV" sceneMemberID="viewController">
+                <tabBarController id="GhG-qy-QZV" customClass="MainTabBarController" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="bjM-Nd-Ew1">
@@ -118,6 +118,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="app.png" width="16" height="16"/>
+        <image name="placeholder_image.png" width="128" height="128"/>
     </resources>
 </document>
