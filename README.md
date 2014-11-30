@@ -1,17 +1,25 @@
-</p>
 OrbitzHotelsViewer
 <p>
 <h2>
-An iOS project to show list of hotels in Chicago area and their position on map using iOS MapKit framework
+An iOS project to show list of hotels in Chicago area and their position on map using iOS MapKit framework with hotels data from local JSON file
 </h2>
 
 <b>Overview : </b>
+<b>How to run</b>
+<p>
+<ul>
+<li>Please run pod install to install all dependencies from external file </li>
+<li>Open generated [project].xcworkspace file </li>
+</ul>
 <p>
 List of hotels is provided in the json file format. Aim of the project is to parse this content and display
 hotel names and images on view using standard iOS controls.
 We are using UITabBarController construct to enable users to switch between hotels list and map view.
 Though JSON files provides more information for each hotel, we are displaying only minimal information on view
-which includes Hotel name, street address and thumbnail image
+which includes Hotel name, street address and thumbnail image.
+<p>
+We have list of hotels in the first tab and map representation in the second one. User can select any one hotel from the first list and upon switching to second view application will show selected hotel on the map.
+</p>
 </p>
 <b>
 External libraries used : 
@@ -23,14 +31,6 @@ experience and may stall UI for long time in case network is slow or unresponsiv
 download operation in the background thread and also caches downloaded images so that extra network request is saved 
 in case image is already found in the local cache database.
 </p>
-
-<b>
-Graphics Used :
-</b>
-<p>
-In order to improve presentation, I have used few graphics. This includes pin on map, launch image, custom images on
-tab bar etc.
- </p>
  <b>
 Device and iOS version support : 
 </b>
@@ -38,3 +38,5 @@ Device and iOS version support :
 This app is designed for both iPhone and iPad devices supporting both portrait and landscape device orientations. It is also
 compatible with newer iPhone devices viz. iPhone 6 and 6+. 
 <p>
+
+
