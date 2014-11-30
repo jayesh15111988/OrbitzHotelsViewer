@@ -11,7 +11,7 @@
 @implementation HotelsAnnotation
 
 - (id)initWithHotelName:(NSString*)name andStreetAddress:(NSString*)streetAddress coordinate:(CLLocationCoordinate2D)coordinate {
-    if ((self = [super init])) {
+    if (self = [super init]) {
         self.hotelName =name;
         self.hotelStreetAddress = streetAddress;
         self.theCoordinate = coordinate;
@@ -41,4 +41,8 @@
     return mapItem;
 }
 
+//For debug purpose we will show hotel name and sub title as well
+-(NSString*)description {
+    return [NSString stringWithFormat:@"%@ %@",self.hotelName,self.subtitle];
+}
 @end

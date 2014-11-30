@@ -24,6 +24,8 @@
     self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
     self.tableView.layer.borderWidth = 1.0f;
     [self.tableView reloadData];
+    //Kepp track of which table row is selected from table
+    self.selectedRowFromTable = -1;
 }
 
 -(void)viewWillAppear:(BOOL)animated {
@@ -59,6 +61,10 @@
         [cell.hotelImage setImage:[UIImage imageNamed:@"placeholder_image.png"]];
     }
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    self.selectedRowFromTable = indexPath.row;
 }
 
 @end

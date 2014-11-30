@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OrbitzHotelsListViewController.h"
 
 @interface OrbitzHotelsMapViewController : UIViewController
 @property (nonatomic, strong) NSArray* hotelsObjectsList;
+@property (nonatomic, strong) OrbitzHotelsListViewController* orbitzHotelsListViewController;
 @end

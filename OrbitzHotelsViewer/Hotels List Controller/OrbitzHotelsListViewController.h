@@ -10,4 +10,5 @@
 
 @interface OrbitzHotelsListViewController : UIViewController
 @property (strong, nonatomic) NSArray* hotelsObjectsList;
+@property (assign, nonatomic) NSInteger selectedRowFromTable;
 @end

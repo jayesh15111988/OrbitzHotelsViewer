@@ -17,11 +17,13 @@
 
 @interface OrbitzHotelsMapViewController ()<MKMapViewDelegate>
 @property (weak, nonatomic) IBOutlet MKMapView *hotelsMap;
+@property (strong, nonatomic) NSMutableArray* annotationsHolder;
 @end
 
 @implementation OrbitzHotelsMapViewController
 -(void)viewDidLoad {
     [super viewDidLoad];
+    self.annotationsHolder = [NSMutableArray new];
     self.hotelsMap.layer.borderColor = [UIColor lightGrayColor].CGColor;
     self.hotelsMap.layer.borderWidth = 1.0f;
     [self plotHotelsOnMap:self.hotelsObjectsList];
@@ -30,11 +32,19 @@
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.navigationController.navigationBar.topItem.title = @"Hotels On Map";
+    //Now depending on the table row that we selected from list view expand annotation view on the map view
+    if(self.orbitzHotelsListViewController.selectedRowFromTable != -1) {
+        HotelsAnnotation* selectedHotelAnnotationFromList = self.annotationsHolder[self.orbitzHotelsListViewController.selectedRowFromTable];
+        [self.hotelsMap selectAnnotation:selectedHotelAnnotationFromList animated:YES];
+    }
 }
 
 - (void)plotHotelsOnMap:(NSArray *)hotelsList {
-    for (id<MKAnnotation> annotation in self.hotelsMap.annotations) {
-        [self.hotelsMap removeAnnotation:annotation];
+    
+    if([self.hotelsMap.annotations count]) {
+        for (id<MKAnnotation> annotation in self.hotelsMap.annotations) {
+            [self.hotelsMap removeAnnotation:annotation];
+        }
     }
     
     NSInteger hotelsObjectCount = 0;
@@ -58,6 +68,7 @@
         coordinate.longitude = individualHotel.hotelLongitude;
         HotelsAnnotation *annotation = [[HotelsAnnotation alloc] initWithHotelName:hotelName andStreetAddress:individualHotel.streetAddress coordinate:coordinate] ;
         annotation.hotelImageURL = individualHotel.hotelImageURL;
+        [self.annotationsHolder addObject:annotation];
         [self.hotelsMap addAnnotation:annotation];
     }
 }
