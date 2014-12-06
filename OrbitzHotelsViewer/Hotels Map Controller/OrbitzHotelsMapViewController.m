@@ -26,17 +26,17 @@
     self.annotationsHolder = [NSMutableArray new];
     self.hotelsMap.layer.borderColor = [UIColor lightGrayColor].CGColor;
     self.hotelsMap.layer.borderWidth = 1.0f;
+    //We will add this notification to update map view based on which hotel is selected from the list of given hotel objects
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(hotelSelectedNotificationReceived:)
+                                                 name:HOTEL_SELECTED_NOTIFICATIONS
+                                               object:nil];
     [self plotHotelsOnMap:self.hotelsObjectsList];
 }
 
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.navigationController.navigationBar.topItem.title = @"Hotels On Map";
-    //Now depending on the table row that we selected from list view expand annotation view on the map view
-    if(self.orbitzHotelsListViewController.selectedRowFromTable != -1) {
-        HotelsAnnotation* selectedHotelAnnotationFromList = self.annotationsHolder[self.orbitzHotelsListViewController.selectedRowFromTable];
-        [self.hotelsMap selectAnnotation:selectedHotelAnnotationFromList animated:YES];
-    }
 }
 
 - (void)plotHotelsOnMap:(NSArray *)hotelsList {
@@ -102,6 +102,23 @@
         return annotationView;
     }
     return nil;
+}
+
+#pragma Hotel selectedNotifications received
+-(void)hotelSelectedNotificationReceived:(NSNotification*)notification {
+    
+    if([notification.name isEqualToString:HOTEL_SELECTED_NOTIFICATIONS]) {
+        //Now depending on the table row that we selected from list view expand annotation view on the map view
+        NSDictionary* notificationInfo = notification.userInfo;
+        NSInteger sequenceOfSelectedHotelFromList = [notificationInfo[@"selectedRowNumber"] integerValue];
+        HotelsAnnotation* selectedHotelAnnotationFromList = self.annotationsHolder[sequenceOfSelectedHotelFromList];
+        [self.hotelsMap selectAnnotation:selectedHotelAnnotationFromList animated:YES];
+    }
+    
+}
+
+-(void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 @end

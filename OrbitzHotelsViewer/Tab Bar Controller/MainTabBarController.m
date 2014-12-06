@@ -16,15 +16,11 @@
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-    
-    //Two view controllers one for listing hotels and other for displaying hotels on the map
-    
     OrbitzHotelsListViewController* hotelsListViewController = (OrbitzHotelsListViewController*) self.viewControllers[0];
     OrbitzHotelsMapViewController* hotelsMapViewController = (OrbitzHotelsMapViewController*) self.viewControllers[1];
     
     hotelsListViewController.hotelsObjectsList = [HotelsParser getListOfHotelsObjectsFromFileWithName:@"hotels" andType:@"json"];
      hotelsMapViewController.hotelsObjectsList = hotelsListViewController.hotelsObjectsList;
-     hotelsMapViewController.orbitzHotelsListViewController = hotelsListViewController;
     
     NSDictionary *titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
                                          [UIFont systemFontOfSize:14], NSFontAttributeName, nil];

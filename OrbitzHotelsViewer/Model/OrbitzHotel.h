@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#define HOTEL_SELECTED_NOTIFICATIONS @"hotelselectedfromlist"
 
 @interface OrbitzHotel : NSObject
 @property (nonatomic, strong) NSString* direction;
