@@ -37,6 +37,39 @@ Device and iOS version support :
 <p>
 This app is designed for both iPhone and iPad devices supporting both portrait and landscape device orientations. It is also
 compatible with newer iPhone devices viz. iPhone 6 and 6+. 
+
 <p>
 
+<p>
+<b>Project Demo Screenshots : </b>
+</p>
+Hotels' List on iPad
+<div>
+<img src = 'Screenshots/iPad Hotels List.png'>
+</div>
+<div></div>
+<br/>
+Hotels' List on the Map
+<div>
+<img src = 'Screenshots/iPad - Hotels on Map.png'>
+</div>
+<div></div>
+<br/>
+Selected Hotel Information on Map - iPad Landscape mode
+<div>
+<img src = 'Screenshots/iPad - Selected Hotel info.png'>
+</div>
+<div></div>
+<br/>
+List Of Hotel on iPhone6+ Screen
+<div>
+<img src = 'Screenshots/iPhone6+ - Hotels List.png'>
+</div>
+<div></div>
+<br/>
+Selected hotels information on Map - iPhone6+ Screen
+<div>
+<img src = 'Screenshots/iPhone6+ - Selected Hotels info on Map.png'>
+</div>
+</p>
 
