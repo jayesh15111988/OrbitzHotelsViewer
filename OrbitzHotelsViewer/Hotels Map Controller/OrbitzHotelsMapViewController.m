@@ -16,7 +16,7 @@
 #define METERS_PER_MILE 1610
 
 @interface OrbitzHotelsMapViewController ()<MKMapViewDelegate>
-@property (weak, nonatomic) IBOutlet MKMapView *hotelsMap;
+@property (weak,   nonatomic) IBOutlet MKMapView *hotelsMap;
 @property (strong, nonatomic) NSMutableArray* annotationsHolder;
 @end
 
@@ -81,7 +81,6 @@
     if ([annotation isKindOfClass:[HotelsAnnotation class]]) {
         MKAnnotationView *annotationView = (MKAnnotationView *) [self.hotelsMap dequeueReusableAnnotationViewWithIdentifier:identifier];
         if (annotationView == nil) {
-
             annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
             annotationView.enabled = YES;
             annotationView.canShowCallout = YES;
@@ -91,8 +90,6 @@
         }
         
         HotelsAnnotation* currentHotelAnnotation = (HotelsAnnotation*)annotation;
-
-        
         UIImageView* hotelImageView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 5, 50, 50)];
         
         if(currentHotelAnnotation.hotelImageURL) {

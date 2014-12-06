@@ -1,1400 +1,622 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>090AA978841FCCABC474E306</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>383387D71A27922F0011C36B</string>
-				<string>706173FE9D99B02A4DBC52CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387C51A27271F0011C36B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>383387C61A2728460011C36B</string>
-				<string>383387C71A2728460011C36B</string>
-				<string>383387DC1A2796050011C36B</string>
-				<string>383387DD1A2796050011C36B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Model</string>
-			<key>path</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387C61A2728460011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OrbitzHotel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387C71A2728460011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OrbitzHotel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387C81A2728460011C36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>383387C71A2728460011C36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>383387C91A272ACF0011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OrbitzHotelsListViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387CA1A272ACF0011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OrbitzHotelsListViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387CB1A272ACF0011C36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>383387CA1A272ACF0011C36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>383387CC1A272B3A0011C36B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>383387CD1A273A470011C36B</string>
-				<string>383387CE1A273A470011C36B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Custom Cells</string>
-			<key>path</key>
-			<string>Custom Cells</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387CD1A273A470011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HotelsListCustomCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387CE1A273A470011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HotelsListCustomCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387CF1A273A470011C36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>383387CE1A273A470011C36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>383387D01A278B930011C36B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>383387D11A278B9D0011C36B</string>
-				<string>383387EC1A27A83D0011C36B</string>
-				<string>38C4D6AF1A27BD2900091EFF</string>
-				<string>383387EF1A27A8D00011C36B</string>
-				<string>383387DF1A279B210011C36B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Images</string>
-			<key>path</key>
-			<string>Images</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387D11A278B9D0011C36B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>placeholder_image.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387D21A278B9D0011C36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>383387D11A278B9D0011C36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>383387D31A278C140011C36B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>383387D41A278C590011C36B</string>
-				<string>383387D51A278C590011C36B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Tab Bar Controller</string>
-			<key>path</key>
-			<string>Tab Bar Controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387D41A278C590011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MainTabBarController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387D51A278C590011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MainTabBarController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387D61A278C590011C36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>383387D51A278C590011C36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>383387D71A27922F0011C36B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MapKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/MapKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>383387D81A27922F0011C36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>383387D71A27922F0011C36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>383387D91A2792820011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OrbitzHotelsMapViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387DA1A2792820011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OrbitzHotelsMapViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387DB1A2792820011C36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>383387DA1A2792820011C36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>383387DC1A2796050011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HotelsAnnotation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387DD1A2796050011C36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HotelsAnnotation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387DE1A2796050011C36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>383387DD1A2796050011C36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>383387DF1A279B210011C36B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>pin.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387E01A279B210011C36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>383387DF1A279B210011C36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>383387EC1A27A83D0011C36B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>maps.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387EE1A27A83D0011C36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>383387EC1A27A83D0011C36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>383387EF1A27A8D00011C36B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>list.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383387F01A27A8D00011C36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>383387EF1A27A8D00011C36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38C4D6AF1A27BD2900091EFF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>beautifulHotel.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38C4D6B01A27BD2900091EFF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38C4D6AF1A27BD2900091EFF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38E51C871A27246A0090B49D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>38E51C921A27246A0090B49D</string>
-				<string>38E51CAC1A27246A0090B49D</string>
-				<string>38E51C911A27246A0090B49D</string>
-				<string>D7380B7F09B66E5CC427B869</string>
-				<string>090AA978841FCCABC474E306</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51C881A27246A0090B49D</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0610</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Jayesh Kawli Backup</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>38E51C8F1A27246A0090B49D</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1</string>
-					</dict>
-					<key>38E51CA81A27246A0090B49D</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1</string>
-						<key>TestTargetID</key>
-						<string>38E51C8F1A27246A0090B49D</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>38E51C8B1A27246A0090B49D</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>38E51C871A27246A0090B49D</string>
-			<key>productRefGroup</key>
-			<string>38E51C911A27246A0090B49D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>38E51C8F1A27246A0090B49D</string>
-				<string>38E51CA81A27246A0090B49D</string>
-			</array>
-		</dict>
-		<key>38E51C8B1A27246A0090B49D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>38E51CB11A27246A0090B49D</string>
-				<string>38E51CB21A27246A0090B49D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>38E51C8C1A27246A0090B49D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>383387DB1A2792820011C36B</string>
-				<string>383387D61A278C590011C36B</string>
-				<string>38E51C991A27246A0090B49D</string>
-				<string>383387DE1A2796050011C36B</string>
-				<string>383387C81A2728460011C36B</string>
-				<string>383387CB1A272ACF0011C36B</string>
-				<string>38E51C961A27246A0090B49D</string>
-				<string>383387CF1A273A470011C36B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>38E51C8D1A27246A0090B49D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>383387D81A27922F0011C36B</string>
-				<string>7B97080DFEB207F21DE89229</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>38E51C8E1A27246A0090B49D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>38E51C9F1A27246A0090B49D</string>
-				<string>38E51CA41A27246A0090B49D</string>
-				<string>383387D21A278B9D0011C36B</string>
-				<string>383387EE1A27A83D0011C36B</string>
-				<string>383387E01A279B210011C36B</string>
-				<string>38E51CBB1A2725D30090B49D</string>
-				<string>38E51CA11A27246A0090B49D</string>
-				<string>38C4D6B01A27BD2900091EFF</string>
-				<string>383387F01A27A8D00011C36B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>38E51C8F1A27246A0090B49D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>38E51CB31A27246A0090B49D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D60432F699095516232BFC55</string>
-				<string>38E51C8C1A27246A0090B49D</string>
-				<string>38E51C8D1A27246A0090B49D</string>
-				<string>38E51C8E1A27246A0090B49D</string>
-				<string>90EA3BF853F159209F2C19AD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>OrbitzHotelsViewer</string>
-			<key>productName</key>
-			<string>OrbitzHotelsViewer</string>
-			<key>productReference</key>
-			<string>38E51C901A27246A0090B49D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>38E51C901A27246A0090B49D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>OrbitzHotelsViewer.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>38E51C911A27246A0090B49D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>38E51C901A27246A0090B49D</string>
-				<string>38E51CA91A27246A0090B49D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51C921A27246A0090B49D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>383387D31A278C140011C36B</string>
-				<string>383387D01A278B930011C36B</string>
-				<string>383387CC1A272B3A0011C36B</string>
-				<string>383387C51A27271F0011C36B</string>
-				<string>38E51CBD1A2726860090B49D</string>
-				<string>38E51CBC1A27266C0090B49D</string>
-				<string>38E51CB91A2725B80090B49D</string>
-				<string>38E51C971A27246A0090B49D</string>
-				<string>38E51C981A27246A0090B49D</string>
-				<string>38E51C9D1A27246A0090B49D</string>
-				<string>38E51CA01A27246A0090B49D</string>
-				<string>38E51CA21A27246A0090B49D</string>
-				<string>38E51C931A27246A0090B49D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>OrbitzHotelsViewer</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51C931A27246A0090B49D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>38E51C941A27246A0090B49D</string>
-				<string>38E51C951A27246A0090B49D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>path</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51C941A27246A0090B49D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51C951A27246A0090B49D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51C961A27246A0090B49D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38E51C951A27246A0090B49D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38E51C971A27246A0090B49D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51C981A27246A0090B49D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51C991A27246A0090B49D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38E51C981A27246A0090B49D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38E51C9D1A27246A0090B49D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>38E51C9E1A27246A0090B49D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51C9E1A27246A0090B49D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51C9F1A27246A0090B49D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38E51C9D1A27246A0090B49D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38E51CA01A27246A0090B49D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51CA11A27246A0090B49D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38E51CA01A27246A0090B49D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38E51CA21A27246A0090B49D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>38E51CA31A27246A0090B49D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51CA31A27246A0090B49D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51CA41A27246A0090B49D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38E51CA21A27246A0090B49D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38E51CA51A27246A0090B49D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>38E51CB01A27246A0090B49D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>38E51CA61A27246A0090B49D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>38E51CA71A27246A0090B49D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>38E51CA81A27246A0090B49D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>38E51CB61A27246A0090B49D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>38E51CA51A27246A0090B49D</string>
-				<string>38E51CA61A27246A0090B49D</string>
-				<string>38E51CA71A27246A0090B49D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>38E51CAB1A27246A0090B49D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>OrbitzHotelsViewerTests</string>
-			<key>productName</key>
-			<string>OrbitzHotelsViewerTests</string>
-			<key>productReference</key>
-			<string>38E51CA91A27246A0090B49D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>38E51CA91A27246A0090B49D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>OrbitzHotelsViewerTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>38E51CAA1A27246A0090B49D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>38E51C881A27246A0090B49D</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>38E51C8F1A27246A0090B49D</string>
-			<key>remoteInfo</key>
-			<string>OrbitzHotelsViewer</string>
-		</dict>
-		<key>38E51CAB1A27246A0090B49D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>38E51C8F1A27246A0090B49D</string>
-			<key>targetProxy</key>
-			<string>38E51CAA1A27246A0090B49D</string>
-		</dict>
-		<key>38E51CAC1A27246A0090B49D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>38E51CAF1A27246A0090B49D</string>
-				<string>38E51CAD1A27246A0090B49D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>OrbitzHotelsViewerTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51CAD1A27246A0090B49D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>38E51CAE1A27246A0090B49D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>path</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51CAE1A27246A0090B49D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51CAF1A27246A0090B49D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OrbitzHotelsViewerTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51CB01A27246A0090B49D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38E51CAF1A27246A0090B49D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38E51CB11A27246A0090B49D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>38E51CB21A27246A0090B49D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>38E51CB31A27246A0090B49D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>38E51CB41A27246A0090B49D</string>
-				<string>38E51CB51A27246A0090B49D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>38E51CB41A27246A0090B49D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C2FDCCCF03509E53EB6E825D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>OrbitzHotelsViewer/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>38E51CB51A27246A0090B49D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BD0D93108016FDCF42EA304F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>OrbitzHotelsViewer/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>38E51CB61A27246A0090B49D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>38E51CB71A27246A0090B49D</string>
-				<string>38E51CB81A27246A0090B49D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>38E51CB71A27246A0090B49D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>OrbitzHotelsViewerTests/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/OrbitzHotelsViewer.app/OrbitzHotelsViewer</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>38E51CB81A27246A0090B49D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>OrbitzHotelsViewerTests/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/OrbitzHotelsViewer.app/OrbitzHotelsViewer</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>38E51CB91A2725B80090B49D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>38E51CBA1A2725D30090B49D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Hotels Metadata </string>
-			<key>path</key>
-			<string>Hotels Metadata </string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51CBA1A2725D30090B49D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.json</string>
-			<key>path</key>
-			<string>hotels.json</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51CBB1A2725D30090B49D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38E51CBA1A2725D30090B49D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38E51CBC1A27266C0090B49D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>383387C91A272ACF0011C36B</string>
-				<string>383387CA1A272ACF0011C36B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Hotels List Controller</string>
-			<key>path</key>
-			<string>Hotels List Controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E51CBD1A2726860090B49D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>383387D91A2792820011C36B</string>
-				<string>383387DA1A2792820011C36B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Hotels Map Controller</string>
-			<key>path</key>
-			<string>Hotels Map Controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>706173FE9D99B02A4DBC52CD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7B97080DFEB207F21DE89229</key>
-		<dict>
-			<key>fileRef</key>
-			<string>706173FE9D99B02A4DBC52CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>90EA3BF853F159209F2C19AD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>BD0D93108016FDCF42EA304F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2FDCCCF03509E53EB6E825D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D60432F699095516232BFC55</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D7380B7F09B66E5CC427B869</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C2FDCCCF03509E53EB6E825D</string>
-				<string>BD0D93108016FDCF42EA304F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>38E51C881A27246A0090B49D</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		383387C81A2728460011C36B /* OrbitzHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387C71A2728460011C36B /* OrbitzHotel.m */; };
+		383387CB1A272ACF0011C36B /* OrbitzHotelsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387CA1A272ACF0011C36B /* OrbitzHotelsListViewController.m */; };
+		383387CF1A273A470011C36B /* HotelsListCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387CE1A273A470011C36B /* HotelsListCustomCell.m */; };
+		383387D21A278B9D0011C36B /* placeholder_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387D11A278B9D0011C36B /* placeholder_image.png */; };
+		383387D61A278C590011C36B /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387D51A278C590011C36B /* MainTabBarController.m */; };
+		383387D81A27922F0011C36B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383387D71A27922F0011C36B /* MapKit.framework */; };
+		383387DB1A2792820011C36B /* OrbitzHotelsMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387DA1A2792820011C36B /* OrbitzHotelsMapViewController.m */; };
+		383387DE1A2796050011C36B /* HotelsAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 383387DD1A2796050011C36B /* HotelsAnnotation.m */; };
+		383387E01A279B210011C36B /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387DF1A279B210011C36B /* pin.png */; };
+		383387EE1A27A83D0011C36B /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387EC1A27A83D0011C36B /* maps.png */; };
+		383387F01A27A8D00011C36B /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 383387EF1A27A8D00011C36B /* list.png */; };
+		38C4D6B01A27BD2900091EFF /* beautifulHotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38C4D6AF1A27BD2900091EFF /* beautifulHotel.jpg */; };
+		38E23CC61A32AF7300741DD4 /* HotelsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E23CC51A32AF7300741DD4 /* HotelsParser.m */; };
+		38E51C961A27246A0090B49D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C951A27246A0090B49D /* main.m */; };
+		38E51C991A27246A0090B49D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51C981A27246A0090B49D /* AppDelegate.m */; };
+		38E51C9F1A27246A0090B49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E51C9D1A27246A0090B49D /* Main.storyboard */; };
+		38E51CA11A27246A0090B49D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E51CA01A27246A0090B49D /* Images.xcassets */; };
+		38E51CA41A27246A0090B49D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E51CA21A27246A0090B49D /* LaunchScreen.xib */; };
+		38E51CB01A27246A0090B49D /* OrbitzHotelsViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E51CAF1A27246A0090B49D /* OrbitzHotelsViewerTests.m */; };
+		38E51CBB1A2725D30090B49D /* hotels.json in Resources */ = {isa = PBXBuildFile; fileRef = 38E51CBA1A2725D30090B49D /* hotels.json */; };
+		7B97080DFEB207F21DE89229 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 706173FE9D99B02A4DBC52CD /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38E51CAA1A27246A0090B49D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E51C881A27246A0090B49D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E51C8F1A27246A0090B49D;
+			remoteInfo = OrbitzHotelsViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		383387C61A2728460011C36B /* OrbitzHotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitzHotel.h; sourceTree = "<group>"; };
+		383387C71A2728460011C36B /* OrbitzHotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitzHotel.m; sourceTree = "<group>"; };
+		383387C91A272ACF0011C36B /* OrbitzHotelsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitzHotelsListViewController.h; sourceTree = "<group>"; };
+		383387CA1A272ACF0011C36B /* OrbitzHotelsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitzHotelsListViewController.m; sourceTree = "<group>"; };
+		383387CD1A273A470011C36B /* HotelsListCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelsListCustomCell.h; sourceTree = "<group>"; };
+		383387CE1A273A470011C36B /* HotelsListCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelsListCustomCell.m; sourceTree = "<group>"; };
+		383387D11A278B9D0011C36B /* placeholder_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder_image.png; sourceTree = "<group>"; };
+		383387D41A278C590011C36B /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		383387D51A278C590011C36B /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		383387D71A27922F0011C36B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		383387D91A2792820011C36B /* OrbitzHotelsMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitzHotelsMapViewController.h; sourceTree = "<group>"; };
+		383387DA1A2792820011C36B /* OrbitzHotelsMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitzHotelsMapViewController.m; sourceTree = "<group>"; };
+		383387DC1A2796050011C36B /* HotelsAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelsAnnotation.h; sourceTree = "<group>"; };
+		383387DD1A2796050011C36B /* HotelsAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelsAnnotation.m; sourceTree = "<group>"; };
+		383387DF1A279B210011C36B /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		383387EC1A27A83D0011C36B /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		383387EF1A27A8D00011C36B /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		38C4D6AF1A27BD2900091EFF /* beautifulHotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beautifulHotel.jpg; sourceTree = "<group>"; };
+		38E23CC41A32AF7300741DD4 /* HotelsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelsParser.h; sourceTree = "<group>"; };
+		38E23CC51A32AF7300741DD4 /* HotelsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelsParser.m; sourceTree = "<group>"; };
+		38E51C901A27246A0090B49D /* OrbitzHotelsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitzHotelsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E51C941A27246A0090B49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E51C951A27246A0090B49D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38E51C971A27246A0090B49D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38E51C981A27246A0090B49D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38E51C9E1A27246A0090B49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38E51CA01A27246A0090B49D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38E51CA31A27246A0090B49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		38E51CA91A27246A0090B49D /* OrbitzHotelsViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitzHotelsViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E51CAE1A27246A0090B49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E51CAF1A27246A0090B49D /* OrbitzHotelsViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitzHotelsViewerTests.m; sourceTree = "<group>"; };
+		38E51CBA1A2725D30090B49D /* hotels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotels.json; sourceTree = "<group>"; };
+		706173FE9D99B02A4DBC52CD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0D93108016FDCF42EA304F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C2FDCCCF03509E53EB6E825D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E51C8D1A27246A0090B49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383387D81A27922F0011C36B /* MapKit.framework in Frameworks */,
+				7B97080DFEB207F21DE89229 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E51CA61A27246A0090B49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090AA978841FCCABC474E306 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				383387D71A27922F0011C36B /* MapKit.framework */,
+				706173FE9D99B02A4DBC52CD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		383387C51A27271F0011C36B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				383387C61A2728460011C36B /* OrbitzHotel.h */,
+				383387C71A2728460011C36B /* OrbitzHotel.m */,
+				383387DC1A2796050011C36B /* HotelsAnnotation.h */,
+				383387DD1A2796050011C36B /* HotelsAnnotation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		383387CC1A272B3A0011C36B /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				383387CD1A273A470011C36B /* HotelsListCustomCell.h */,
+				383387CE1A273A470011C36B /* HotelsListCustomCell.m */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		383387D01A278B930011C36B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				383387D11A278B9D0011C36B /* placeholder_image.png */,
+				383387EC1A27A83D0011C36B /* maps.png */,
+				38C4D6AF1A27BD2900091EFF /* beautifulHotel.jpg */,
+				383387EF1A27A8D00011C36B /* list.png */,
+				383387DF1A279B210011C36B /* pin.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		383387D31A278C140011C36B /* Tab Bar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				383387D41A278C590011C36B /* MainTabBarController.h */,
+				383387D51A278C590011C36B /* MainTabBarController.m */,
+			);
+			path = "Tab Bar Controller";
+			sourceTree = "<group>";
+		};
+		38E23CC31A32AF5400741DD4 /* Hotels List Parser */ = {
+			isa = PBXGroup;
+			children = (
+				38E23CC41A32AF7300741DD4 /* HotelsParser.h */,
+				38E23CC51A32AF7300741DD4 /* HotelsParser.m */,
+			);
+			name = "Hotels List Parser";
+			sourceTree = "<group>";
+		};
+		38E51C871A27246A0090B49D = {
+			isa = PBXGroup;
+			children = (
+				38E51C921A27246A0090B49D /* OrbitzHotelsViewer */,
+				38E51CAC1A27246A0090B49D /* OrbitzHotelsViewerTests */,
+				38E51C911A27246A0090B49D /* Products */,
+				D7380B7F09B66E5CC427B869 /* Pods */,
+				090AA978841FCCABC474E306 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38E51C911A27246A0090B49D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E51C901A27246A0090B49D /* OrbitzHotelsViewer.app */,
+				38E51CA91A27246A0090B49D /* OrbitzHotelsViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E51C921A27246A0090B49D /* OrbitzHotelsViewer */ = {
+			isa = PBXGroup;
+			children = (
+				38E23CC31A32AF5400741DD4 /* Hotels List Parser */,
+				383387D31A278C140011C36B /* Tab Bar Controller */,
+				383387D01A278B930011C36B /* Images */,
+				383387CC1A272B3A0011C36B /* Custom Cells */,
+				383387C51A27271F0011C36B /* Model */,
+				38E51CBD1A2726860090B49D /* Hotels Map Controller */,
+				38E51CBC1A27266C0090B49D /* Hotels List Controller */,
+				38E51CB91A2725B80090B49D /* Hotels Metadata  */,
+				38E51C971A27246A0090B49D /* AppDelegate.h */,
+				38E51C981A27246A0090B49D /* AppDelegate.m */,
+				38E51C9D1A27246A0090B49D /* Main.storyboard */,
+				38E51CA01A27246A0090B49D /* Images.xcassets */,
+				38E51CA21A27246A0090B49D /* LaunchScreen.xib */,
+				38E51C931A27246A0090B49D /* Supporting Files */,
+			);
+			path = OrbitzHotelsViewer;
+			sourceTree = "<group>";
+		};
+		38E51C931A27246A0090B49D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E51C941A27246A0090B49D /* Info.plist */,
+				38E51C951A27246A0090B49D /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38E51CAC1A27246A0090B49D /* OrbitzHotelsViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				38E51CAF1A27246A0090B49D /* OrbitzHotelsViewerTests.m */,
+				38E51CAD1A27246A0090B49D /* Supporting Files */,
+			);
+			path = OrbitzHotelsViewerTests;
+			sourceTree = "<group>";
+		};
+		38E51CAD1A27246A0090B49D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E51CAE1A27246A0090B49D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38E51CB91A2725B80090B49D /* Hotels Metadata  */ = {
+			isa = PBXGroup;
+			children = (
+				38E51CBA1A2725D30090B49D /* hotels.json */,
+			);
+			path = "Hotels Metadata ";
+			sourceTree = "<group>";
+		};
+		38E51CBC1A27266C0090B49D /* Hotels List Controller */ = {
+			isa = PBXGroup;
+			children = (
+				383387C91A272ACF0011C36B /* OrbitzHotelsListViewController.h */,
+				383387CA1A272ACF0011C36B /* OrbitzHotelsListViewController.m */,
+			);
+			path = "Hotels List Controller";
+			sourceTree = "<group>";
+		};
+		38E51CBD1A2726860090B49D /* Hotels Map Controller */ = {
+			isa = PBXGroup;
+			children = (
+				383387D91A2792820011C36B /* OrbitzHotelsMapViewController.h */,
+				383387DA1A2792820011C36B /* OrbitzHotelsMapViewController.m */,
+			);
+			path = "Hotels Map Controller";
+			sourceTree = "<group>";
+		};
+		D7380B7F09B66E5CC427B869 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2FDCCCF03509E53EB6E825D /* Pods.debug.xcconfig */,
+				BD0D93108016FDCF42EA304F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38E51C8F1A27246A0090B49D /* OrbitzHotelsViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E51CB31A27246A0090B49D /* Build configuration list for PBXNativeTarget "OrbitzHotelsViewer" */;
+			buildPhases = (
+				D60432F699095516232BFC55 /* Check Pods Manifest.lock */,
+				38E51C8C1A27246A0090B49D /* Sources */,
+				38E51C8D1A27246A0090B49D /* Frameworks */,
+				38E51C8E1A27246A0090B49D /* Resources */,
+				90EA3BF853F159209F2C19AD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrbitzHotelsViewer;
+			productName = OrbitzHotelsViewer;
+			productReference = 38E51C901A27246A0090B49D /* OrbitzHotelsViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38E51CA81A27246A0090B49D /* OrbitzHotelsViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E51CB61A27246A0090B49D /* Build configuration list for PBXNativeTarget "OrbitzHotelsViewerTests" */;
+			buildPhases = (
+				38E51CA51A27246A0090B49D /* Sources */,
+				38E51CA61A27246A0090B49D /* Frameworks */,
+				38E51CA71A27246A0090B49D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E51CAB1A27246A0090B49D /* PBXTargetDependency */,
+			);
+			name = OrbitzHotelsViewerTests;
+			productName = OrbitzHotelsViewerTests;
+			productReference = 38E51CA91A27246A0090B49D /* OrbitzHotelsViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E51C881A27246A0090B49D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jayesh Kawli Backup";
+				TargetAttributes = {
+					38E51C8F1A27246A0090B49D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					38E51CA81A27246A0090B49D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 38E51C8F1A27246A0090B49D;
+					};
+				};
+			};
+			buildConfigurationList = 38E51C8B1A27246A0090B49D /* Build configuration list for PBXProject "OrbitzHotelsViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38E51C871A27246A0090B49D;
+			productRefGroup = 38E51C911A27246A0090B49D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E51C8F1A27246A0090B49D /* OrbitzHotelsViewer */,
+				38E51CA81A27246A0090B49D /* OrbitzHotelsViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E51C8E1A27246A0090B49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E51C9F1A27246A0090B49D /* Main.storyboard in Resources */,
+				38E51CA41A27246A0090B49D /* LaunchScreen.xib in Resources */,
+				383387D21A278B9D0011C36B /* placeholder_image.png in Resources */,
+				383387EE1A27A83D0011C36B /* maps.png in Resources */,
+				383387E01A279B210011C36B /* pin.png in Resources */,
+				38E51CBB1A2725D30090B49D /* hotels.json in Resources */,
+				38E51CA11A27246A0090B49D /* Images.xcassets in Resources */,
+				38C4D6B01A27BD2900091EFF /* beautifulHotel.jpg in Resources */,
+				383387F01A27A8D00011C36B /* list.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E51CA71A27246A0090B49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90EA3BF853F159209F2C19AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60432F699095516232BFC55 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E51C8C1A27246A0090B49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383387DB1A2792820011C36B /* OrbitzHotelsMapViewController.m in Sources */,
+				383387D61A278C590011C36B /* MainTabBarController.m in Sources */,
+				38E51C991A27246A0090B49D /* AppDelegate.m in Sources */,
+				383387DE1A2796050011C36B /* HotelsAnnotation.m in Sources */,
+				38E23CC61A32AF7300741DD4 /* HotelsParser.m in Sources */,
+				383387C81A2728460011C36B /* OrbitzHotel.m in Sources */,
+				383387CB1A272ACF0011C36B /* OrbitzHotelsListViewController.m in Sources */,
+				38E51C961A27246A0090B49D /* main.m in Sources */,
+				383387CF1A273A470011C36B /* HotelsListCustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E51CA51A27246A0090B49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E51CB01A27246A0090B49D /* OrbitzHotelsViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38E51CAB1A27246A0090B49D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E51C8F1A27246A0090B49D /* OrbitzHotelsViewer */;
+			targetProxy = 38E51CAA1A27246A0090B49D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38E51C9D1A27246A0090B49D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E51C9E1A27246A0090B49D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38E51CA21A27246A0090B49D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E51CA31A27246A0090B49D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38E51CB11A27246A0090B49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38E51CB21A27246A0090B49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E51CB41A27246A0090B49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FDCCCF03509E53EB6E825D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OrbitzHotelsViewer/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38E51CB51A27246A0090B49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0D93108016FDCF42EA304F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OrbitzHotelsViewer/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38E51CB71A27246A0090B49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OrbitzHotelsViewerTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrbitzHotelsViewer.app/OrbitzHotelsViewer";
+			};
+			name = Debug;
+		};
+		38E51CB81A27246A0090B49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OrbitzHotelsViewerTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrbitzHotelsViewer.app/OrbitzHotelsViewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E51C8B1A27246A0090B49D /* Build configuration list for PBXProject "OrbitzHotelsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E51CB11A27246A0090B49D /* Debug */,
+				38E51CB21A27246A0090B49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E51CB31A27246A0090B49D /* Build configuration list for PBXNativeTarget "OrbitzHotelsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E51CB41A27246A0090B49D /* Debug */,
+				38E51CB51A27246A0090B49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E51CB61A27246A0090B49D /* Build configuration list for PBXNativeTarget "OrbitzHotelsViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E51CB71A27246A0090B49D /* Debug */,
+				38E51CB81A27246A0090B49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38E51C881A27246A0090B49D /* Project object */;
+}
